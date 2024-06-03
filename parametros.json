@@ -1,0 +1,11 @@
+{
+    "chave_api_clima": "6578ff559722934cc387cb5a79e8e785",
+    "chave_api_google_maps": "AIzaSyCj_Nb0eh42BR_zcdQus3XPvSxrimW71Dg",
+    "origens": ["Brasilia", "Rio de Janeiro", "Belo Horizonte"],
+    "destinos": ["Niteroi", "Manaus", "Porto Alegre"],
+    "db_usuario": "postgres",
+    "db_senha": "admin",
+    "db_host": "localhost",
+    "db_porta": "5432",
+    "db_nome": "Gold"
+}
