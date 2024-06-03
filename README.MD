@@ -17,8 +17,7 @@ Instale as seguintes bibliotecas antes de executar os scripts:
 
 pip install pandas unidecode sqlalchemy psycopg2-binary
 
-
-executar na sequencia
+## Executar na sequencia
 
 script_extracao.py >>> script_tratamento.py >>> script_carga.py
 
@@ -44,7 +43,11 @@ script_extracao.py >>> script_tratamento.py >>> script_carga.py
 
 - **Função**: Criação do esquema de banco de dados PostgreSQL, incluindo a definição de tabelas, relacionamentos, PK e FK.
 
-## Script Geram
+### 5. `parametros`
+
+- **Função**: Guardar as variaveis a serem buscadas na API, chaves e conexão com o banco.
+
+## Script geram CSV
 
 - `dados_tabulados.csv`: Arquivo CSV com dados extraídos e tratados.
 - `dados_tabulados_tratados.csv`: Arquivo CSV com dados tratados, sem duplicatas.
