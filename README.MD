@@ -20,10 +20,7 @@ pip install pandas unidecode sqlalchemy psycopg2-binary
 ## Executar na sequencia
 
 script_extracao.py >>> script_tratamento.py >>> script_carga.py
-
 ## Estrutura do Projeto
-
-- `parametros.json`: Arquivo JSON contendo parâmetros e credenciais de conexão ao banco de dados.
 
 ## Scripts
 
@@ -43,11 +40,11 @@ script_extracao.py >>> script_tratamento.py >>> script_carga.py
 
 - **Função**: Criação do esquema de banco de dados PostgreSQL, incluindo a definição de tabelas, relacionamentos, PK e FK.
 
-### 5. `parametros`
+### 5. `parametros.json`
 
-- **Função**: Guardar as variaveis a serem buscadas na API, chaves e conexão com o banco.
+- **Função**: Arquivo JSON contendo parâmetros e credenciais de conexão ao banco de dados e variaveis a serem buscadas na API.
 
-## Script geram CSV
+## Script geram seguintes CSV
 
 - `dados_tabulados.csv`: Arquivo CSV com dados extraídos e tratados.
 - `dados_tabulados_tratados.csv`: Arquivo CSV com dados tratados, sem duplicatas.
